@@ -16,9 +16,9 @@ public enum Dice {
     }
 
 
-    public int roll(int num1 ){
-        num1 = ThreadLocalRandom.current().nextInt(1, maxValue);
-        return num1;
+    public int roll (){
+        maxValue = ThreadLocalRandom.current().nextInt(1, maxValue + 1);
+        return maxValue;
 
     }
 

@@ -18,10 +18,10 @@ public class App
         Dice dice3 = Dice.D100;
 
 
-        System.out.println(dice.roll(1));
-        System.out.println(dice1.roll(1));
-        System.out.println(dice2.roll(1));
-        System.out.println(dice3.roll(1));
+        System.out.println(dice.roll());
+        System.out.println(dice1.roll());
+        System.out.println(dice2.roll());
+        System.out.println(dice3.roll());
 
 
 
